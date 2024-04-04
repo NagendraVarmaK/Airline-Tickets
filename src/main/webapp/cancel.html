@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Canceling</title>
+	<link rel="icon" href="images/logo.jpg"/>
+	<link rel="stylesheet" href="cancel.css"/>
+</head>
+<body>
+	<header>
+		<img alt="" src="images/logo.jpg">
+		<h1>AIRLINE RESERVATION SYSTEM</h1>
+	</header>
+	<form action="cancel" method="post">
+		<h3>Cancel Ticket</h3>
+		<div id="div_1">
+			<table>
+				<tr>
+					<td><b>Name</b></td>
+					<td><input type="text" name="name" placeholder="Enter Name" maxlength="20"></td>
+				</tr>
+				<tr>
+					<td><b>Phone Number</b></td>
+					<td><input type="number" name="phone" placeholder="Enter Phone Number" maxlength="10"></td>
+				</tr>
+				<tr>
+					<td><b>Email</b></td>
+					<td><input type="email" name="email" placeholder="Enter Email"></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td><b>From</b></td>
+					<td>
+						<select name="from" style="border: 2px solid black; border-radius: 10px; padding: 3%;">
+							<option value="">FROM</option>
+							<option value="AHMEDABAD">AHMEDABAD</option>
+							<option value="BENGALURU">BENGALURU</option>
+							<option value="BHUBANESHWAR">BHUBANESHWAR</option>
+							<option value="CHENNAI">CHENNAI</option>
+							<option value="DELHI">DELHI</option>
+							<option value="GUWAHATI">GUWAHATI</option>
+							<option value="HYDERABAD">HYDERABAD</option>
+							<option value="KOLKATA">KOLKATA</option>
+							<option value="LUCKNOW">LUCKNOW</option>
+							<option value="MUMBAI">MUMBAI</option>
+							<option value="THIRUVANANTHAPURAM">THIRUVANANTHAPURAM</option>
+							<option value="VISHAKAPATNAM">VISHAKAPATNAM</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><b>To</b></td>
+					<td>
+						<select name="to" style="border: 2px solid black; border-radius: 10px; padding: 3%;">
+							<option value="">TO</option>
+							<option value="AHMEDABAD">AHMEDABAD</option>
+							<option value="BENGALURU">BENGALURU</option>
+							<option value="BHUBANESHWAR">BHUBANESHWAR</option>
+							<option value="CHENNAI">CHENNAI</option>
+							<option value="DELHI">DELHI</option>
+							<option value="GUWAHATI">GUWAHATI</option>
+							<option value="HYDERABAD">HYDERABAD</option>
+							<option value="KOLKATA">KOLKATA</option>
+							<option value="LUCKNOW">LUCKNOW</option>
+							<option value="MUMBAI">MUMBAI</option>
+							<option value="THIRUVANANTHAPURAM">THIRUVANANTHAPURAM</option>
+							<option value="VISHAKAPATNAM">VISHAKAPATNAM</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<hr>
+		<div id="sbt_div">
+			<input type="submit" value="CANCEL TICKET">
+			<input type="reset" value="CLEAR">
+		</div>
+	</form>
+
+	<p>If you don't no your ticket details, <a href="ticket">click here</a></p>
+
+</body>
+</html>

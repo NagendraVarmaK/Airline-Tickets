@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+body{
+    background-image: url('images/background.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+header{
+	margin: auto;
+	text-align: center;
+	display: flex;
+}
+header img{
+	border-radius: 15px;
+	width: 6%;
+	height: 6%;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+h1{
+	margin: auto;
+	margin-top: 3.5%;
+	font-size: 300%;
+	margin-right: 23%;
+}
+div{
+	margin: auto;
+	text-align: center;
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 31%;
+}
+a{
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 2%;
+	font-size: x-large;
+	font-weight: bold;
+	background-color: gray;
+	color: black;
+}

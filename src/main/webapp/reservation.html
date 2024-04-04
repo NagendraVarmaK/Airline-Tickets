@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Reservation</title>
+	<link rel="icon" href="images/logo.jpg"/>
+	<link rel="stylesheet" href="reservation.css"/>
+</head>
+<body>
+	<header>
+		<img alt="" src="images/logo.jpg">
+		<h1>AIRLINE RESERVATION SYSTEM</h1>
+	</header>
+	<form action="reservation" method="post">
+		<h3>Travel Details</h3>
+		<div id="td_div">
+			<div id="div1">
+				<select name="from">
+					<option value="">FROM</option>
+					<option value="AHMEDABAD">AHMEDABAD</option>
+					<option value="BENGALURU">BENGALURU</option>
+					<option value="BHUBANESHWAR">BHUBANESHWAR</option>
+					<option value="CHENNAI">CHENNAI</option>
+					<option value="DELHI">DELHI</option>
+					<option value="GUWAHATI">GUWAHATI</option>
+					<option value="HYDERABAD">HYDERABAD</option>
+					<option value="KOLKATA">KOLKATA</option>
+					<option value="LUCKNOW">LUCKNOW</option>
+					<option value="MUMBAI">MUMBAI</option>
+					<option value="THIRUVANANTHAPURAM">THIRUVANANTHAPURAM</option>
+					<option value="VISHAKAPATNAM">VISHAKAPATNAM</option>
+				</select>
+				<br><br>
+				<input type="date" name="traveldate">
+			</div>
+			<div id="div2">
+				<select name="to">
+					<option value="">TO</option>
+					<option value="AHMEDABAD">AHMEDABAD</option>
+					<option value="BENGALURU">BENGALURU</option>
+					<option value="BHUBANESHWAR">BHUBANESHWAR</option>
+					<option value="CHENNAI">CHENNAI</option>
+					<option value="DELHI">DELHI</option>
+					<option value="GUWAHATI">GUWAHATI</option>
+					<option value="HYDERABAD">HYDERABAD</option>
+					<option value="KOLKATA">KOLKATA</option>
+					<option value="LUCKNOW">LUCKNOW</option>
+					<option value="MUMBAI">MUMBAI</option>
+					<option value="THIRUVANANTHAPURAM">THIRUVANANTHAPURAM</option>
+					<option value="VISHAKAPATNAM">VISHAKAPATNAM</option>
+				</select>
+				<br><br>
+				<select name="airline">
+					<option value="">Airline</option>
+      				<option value="AirAsia">AirAsia</option>
+      				<option value="Indigo">Indigo</option>
+      				<option value="SpiceJet">SpiceJet</option>
+      				<option value="Vistara">Vistara</option>
+				</select>
+			</div>
+		</div>
+		
+		<h3>Personal Details</h3>
+		<div id="pd_div">
+			<table>
+				<tr>
+					<td><b>Name : </b></td>
+					<td><input type="text" name="name" placeholder="Enter Name" maxlength="20"></td>
+				</tr>
+				<tr>
+					<td><b>Phone Number : </b></td>
+					<td><input type="number" name="phone" placeholder="Enter Phone Number" maxlength="10"></td>
+				</tr>
+				<tr>
+					<td><b>Email : </b></td>
+					<td><input type="email" name="email" placeholder="Enter Email"></td>
+				</tr>
+				<tr>
+					<td><b>Age : </b></td>
+					<td><input type="number" name="age" placeholder="Enter Age" maxlength="3"></td>
+				</tr>
+				<tr>
+					<td><b>Gender : </b></td>
+					<td>
+						<input type="radio" name="gender" value="male" style="padding: 0%;">Male
+						<br>
+						<input type="radio" name="gender" value="female" style="padding: 0%;">Female
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="sbt_div">
+			<input type="submit" value="BOOK TICKET">
+			<input type="reset" value="CLEAR">
+		</div>
+	</form>
+</body>
+</html>

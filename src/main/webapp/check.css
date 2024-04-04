@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+body{
+    background-image: url('images/s_background.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    background-position: center;
+}
+header{
+	margin: auto;
+	text-align: center;
+	display: flex;
+	background-color: gray;
+	border-radius: 10px;
+}
+header img{
+	border-radius: 15px;
+	width: 4%;
+	height: 4%;
+	margin: 0.5%;
+	margin-left: 2%;
+}
+h1{
+	margin: auto;
+	text-align:center;
+}
+form{
+	border: 2px solid skyblue;
+	border-radius: 15px;
+	margin: auto;
+	background-color: skyblue;
+	opacity: 0.8;
+	width: 30%;
+	margin-left: 3%;
+	margin-top: 10%;
+	padding-bottom: 1%;
+}
+form h3{
+	text-align: center;
+	text-decoration: underline;
+}
+#t_div{
+	margin: auto;
+	padding-left: 17%;
+}
+#t_div input{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 3%;
+}
+#sbt_div{
+	display: flex;
+	justify-content: center;
+	gap: 5%;
+}
+#sbt_div input{
+	width: 20%;
+	padding: 1%;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: skyblue;
+}
